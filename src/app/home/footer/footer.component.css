@@ -1,0 +1,76 @@
+#footer-section {
+  background-color: #2d314d;
+  padding: 2rem 0;
+  color: #9698a6;
+  width: 100%;
+}
+
+#footer-section ul {
+  list-style: none;
+}
+
+#footer-section ul li {
+  padding-top: 1rem;
+  cursor: pointer;
+}
+
+#footer-section ul li:hover {
+  color: #31d35c;
+}
+
+#footer-section .icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  height: 100%;
+}
+
+#footer-section .icons figure {
+  padding-top: 3rem;
+  padding-left: 12px;
+  cursor: pointer;
+}
+
+#footer-section .icons figure img:hover {
+  -webkit-filter: drop-shadow(0px 4px 8px #31d35c);
+          filter: drop-shadow(0px 4px 8px #31d35c);
+}
+
+#footer-section form {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#footer-section button {
+  width: 160px;
+  height: 45px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #ffff;
+  background-image: linear-gradient(80deg, #31d35c, #2bb7da);
+  border: none;
+  border-radius: 5em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: background-image 1s ease;
+  transition: background-image 1s ease;
+  outline: none;
+  font-family: "Public Sans", sans-serif;
+}
+
+#footer-section button:hover {
+  background-image: linear-gradient(80deg, #31d35ca1, #2bb7da94);
+}
+
+#footer-section p {
+  padding-top: 1rem;
+  margin-left: -2rem;
+}
+/*# sourceMappingURL=footer.component.css.map */

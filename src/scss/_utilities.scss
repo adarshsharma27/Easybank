@@ -1,0 +1,21 @@
+@import './config';
+@mixin custom-btn() {
+             width:160px;
+             height:45px;
+             font-size: 1rem;
+             font-family: inherit;
+             color:#ffff;
+             background-image: linear-gradient(80deg,hsl(136, 65%, 51%) ,hsl(192, 70%, 51%) );
+             border: none;
+             border-radius:5em;
+             letter-spacing: 1px;
+             cursor: pointer;
+             transition: background-image 1s ease;
+             outline: none;
+             font-family:$website-font;
+
+             &:hover{
+              background-image:linear-gradient(80deg, #31d35ca1, #2bb7da94);
+             }
+    
+}

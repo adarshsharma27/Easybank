@@ -1,0 +1,56 @@
+#articles .row .col-lg-3 .card {
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 40px 0px 0px 40px;
+  -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 40px 0px 0px 40px;
+  border: 1px solid #f9f9f9;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+#articles .row .col-lg-3 .card:hover {
+  -webkit-box-shadow: 0px 0px 25px 5px rgba(84, 81, 81, 0.22);
+          box-shadow: 0px 0px 25px 5px rgba(84, 81, 81, 0.22);
+}
+
+#articles .row .col-lg-3 .card img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+#articles .row .col-lg-3 .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 15px auto;
+  padding: 10px;
+}
+
+#articles .row .col-lg-3 .card .card-body h4 {
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  font-family: "Public Sans", sans-serif;
+}
+
+#articles .row .col-lg-3 .card .card-body h3 {
+  font-size: 1.1rem;
+}
+
+#articles .row .col-lg-3 .card .card-body p {
+  font-size: 0.9rem;
+}
+/*# sourceMappingURL=articles.component.css.map */

@@ -1,0 +1,49 @@
+@import'../../../scss/utilities';
+#articles{
+    .row {
+        .col-lg-3{
+            .card {
+                width: 100%;
+                margin:15px auto;
+                border-radius:40px 0px 0px 40px;
+                box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+                border-radius: 40px 0px 0px 40px;
+                border: 1px solid #f9f9f9;
+              
+                cursor: pointer;
+                transition: all 0.5s ease-in;
+                &:hover{
+                    box-shadow:0px 0px 25px 5px rgba(84, 81, 81, 0.22);
+                   }
+                   img{
+                    border-top-left-radius:8px;
+                    border-top-right-radius:8px;
+                   }
+                .card-body{
+
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    border-radius: 10px;
+                    cursor: pointer;
+                    transition: all 0.5s ease;
+                    margin: 15px auto;
+                    padding: 10px;
+                 
+                    h4{
+                        padding:10px 0px;
+                        font-size: 1.2rem;
+                        font-family:$website-font;
+                    }
+                    h3{
+                        font-size:1.1rem;
+                    }
+                    p{
+                        font-size:0.9rem;
+                    }
+                   
+                }
+            }
+        }
+    }
+}

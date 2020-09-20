@@ -1,0 +1,23 @@
+@import'./config';
+@import'./utilities';
+
+h2{
+    font-family:$website-font;
+    color:#252c42;
+    font-size: 3rem;
+ }
+  h4{
+    font-size: 3.2rem;
+    font-weight: 700;
+    font-family:$website-font;
+    color:$head-txt;
+}
+ p{
+    font-size: 1.1rem;
+    letter-spacing: 0.1px;
+    line-height: 2rem;
+    color:$para-clr;
+    font-family:$website-font;
+    margin-bottom: 0.5rem;
+   
+}

@@ -1,0 +1,38 @@
+@import '../../../scss/utilities';
+section.header{
+    overflow: hidden;
+
+& .row{
+     
+    .btn-custom{
+        @include custom-btn;
+    }
+    .custom-bg{
+        position: relative;
+        
+
+        img[alt='bgimg']{
+            position: absolute;
+            top: -18rem;
+            right: -38rem;
+            z-index: -1;
+        }
+    }
+
+}
+}
+@media(max-width:549px){
+    section.header{
+        overflow: hidden;
+    
+    & .row{
+         
+        .custom-bg{
+           
+    
+    img[alt='bgimg']{
+        top: -38rem;
+        right: -17rem;
+}
+}
+    }}}

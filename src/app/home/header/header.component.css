@@ -1,0 +1,46 @@
+section.header {
+  overflow: hidden;
+}
+
+section.header .row .btn-custom {
+  width: 160px;
+  height: 45px;
+  font-size: 1rem;
+  font-family: inherit;
+  color: #ffff;
+  background-image: linear-gradient(80deg, #31d35c, #2bb7da);
+  border: none;
+  border-radius: 5em;
+  letter-spacing: 1px;
+  cursor: pointer;
+  -webkit-transition: background-image 1s ease;
+  transition: background-image 1s ease;
+  outline: none;
+  font-family: "Public Sans", sans-serif;
+}
+
+section.header .row .btn-custom:hover {
+  background-image: linear-gradient(80deg, #31d35ca1, #2bb7da94);
+}
+
+section.header .row .custom-bg {
+  position: relative;
+}
+
+section.header .row .custom-bg img[alt='bgimg'] {
+  position: absolute;
+  top: -18rem;
+  right: -38rem;
+  z-index: -1;
+}
+
+@media (max-width: 549px) {
+  section.header {
+    overflow: hidden;
+  }
+  section.header .row .custom-bg img[alt='bgimg'] {
+    top: -38rem;
+    right: -17rem;
+  }
+}
+/*# sourceMappingURL=header.component.css.map */

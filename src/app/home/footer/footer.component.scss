@@ -1,0 +1,51 @@
+@import '../../../scss/config';
+@import '../../../scss/utilities';
+#footer-section{
+    background-color:$footer-bg;
+    padding:2rem 0;
+   color:$nav-txt;
+   width: 100%;
+   ul{
+       list-style: none;
+       li{
+           padding-top: 1rem;
+           cursor: pointer;
+           &:hover{
+               color:$footer-hover;
+           }
+           
+       }
+   }
+   
+   .icons{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 50%;
+     height: 100%;
+
+     figure{
+       padding-top:3rem;
+       padding-left:12px;
+       cursor: pointer;
+       img:hover{
+         filter:drop-shadow(0px 4px  8px #31d35c);
+     }
+
+     }
+
+   }
+   form{
+     
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+   }
+  
+   button{
+       @include custom-btn;
+   }
+   p{
+     padding-top: 1rem;
+     margin-left: -2rem;
+   }
+}
